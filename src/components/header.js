@@ -1,33 +1,37 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/logo-hero.svg"
+import bg from "../images/bg.svg"
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+    className="h-screen flex justify-center items-center relative"
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+    <div className="absolute inset-0">
+      <img className="w-full h-full object-cover" src={ bg } alt="" />
     </div>
+    <div className="z-10">
+      <div className="w-full max-w-sm mx-auto">
+        <h1 className="">
+          <img
+            src={ logo }
+            alt={ siteTitle }
+            className="w-full h-auto"
+          />
+        </h1>
+      </div>
+      <div className="text-center">
+        <span className="text-lg font-bold">Graphic Design, Web Design, Wordpress Consulting</span>
+        <br/>
+        Based in Lawrence, KS
+      </div>
+    </div>
+    <div className="absolute bottom-0 w-full text-center text-2xl">
+      {/* <i class="fad fa-arrow-down" /> */}
+      <FontAwesomeIcon icon={["fal", "arrow-down"]} />
+    </div> s
   </header>
 )
 
