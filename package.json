@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mullis-creative-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for Mulliscreative.com",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jeremy Mullis <jeremy.mullis@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/pro-duotone-svg-icons": "^5.12.1",
