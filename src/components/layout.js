@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import fontAwesome from "./fontAwesome"
 
 import Header from "./header"
-import "./style.css"
+import "../styles/style.css"
 
 // init FontAwesome
 fontAwesome();
