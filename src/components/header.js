@@ -30,7 +30,9 @@ const Header = ({ siteTitle }) => (
     </div>
     <div className="absolute bottom-0 w-full text-center text-2xl">
       {/* <i class="fad fa-arrow-down" /> */}
-      <FontAwesomeIcon icon={["fal", "arrow-down"]} />
+      <a href="#content">
+        <FontAwesomeIcon icon={["fal", "arrow-down"]} />
+      </a>
     </div> s
   </header>
 )

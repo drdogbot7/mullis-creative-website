@@ -4,6 +4,9 @@ module.exports = {
       center: true,
       padding: '1rem',
     },
+    fontFamily: {
+      display: ['hippo', 'sans-serif'],
+    },
     colors: {
       'transparent': 'transparent',
       'white': 'white',

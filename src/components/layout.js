@@ -11,10 +11,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import fontAwesome from "./fontAwesome"
 
 import Header from "./header"
+import Footer from "./footer"
+import initClient from "./initClient"
 import "../styles/style.css"
 
-// init FontAwesome
-fontAwesome();
+fontAwesome()
+initClient()
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,13 +34,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container">
         <main>{children}</main>
-        <footer className="pt-16 pb-8 text-center">
-          © {new Date().getFullYear()} Mullis Creative<br/>
-          <small className="text-gray-500">
-            Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </small>
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }

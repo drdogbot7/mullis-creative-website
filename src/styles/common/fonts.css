@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "hippo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/hippo-webfont.woff2") format("woff2"),
+    url("../fonts/hippo-webfont.woff") format("woff"),
+    url("../fonts/hippo-webfont.ttf") format("truetype");
+}
