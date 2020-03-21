@@ -33,7 +33,17 @@ module.exports = {
       'teal': '#00ffc8',
       'cyan': '#00ffff',
     },
+    aspectRatio: {
+      none: 0,
+      square: [1, 1],
+      "16/9": [16, 9],
+      "4/3": [4, 3],
+      "21/9": [21, 9]
+    }
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require("tailwindcss-responsive-embed"),
+    require("tailwindcss-aspect-ratio"),
+  ],
 }

@@ -8,12 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+
 import fontAwesome from "./fontAwesome"
+import initClient from "./initClient"
 
 import Header from "./header"
 import Footer from "./footer"
-import initClient from "./initClient"
-import "../styles/style.css"
 
 fontAwesome()
 initClient()

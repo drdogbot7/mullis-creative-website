@@ -4,7 +4,7 @@
 * Common
 */
 @import "tailwindcss/base";
-@import 'common/fonts.css';
+@import "common/fonts.css";
 @import "common/global.css";
 
 /**
@@ -15,11 +15,11 @@
 /**
  * Vendor 
  */
-/* @import "vendor/basiclightbox.css"; */
+@import "vendor/basiclightbox.css";
 
 /* purgecss end ignore */
 
 /**
- * Utilities
- */
- @import "tailwindcss/utilities";
+* Utilities
+*/
+@import "tailwindcss/utilities";
