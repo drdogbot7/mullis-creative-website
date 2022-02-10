@@ -22,7 +22,7 @@
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-easy-import": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "postcss-scss": "^2.0.0",
